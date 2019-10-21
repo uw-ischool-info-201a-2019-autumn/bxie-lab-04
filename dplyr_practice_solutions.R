@@ -8,11 +8,8 @@
 ################################################
 
 # install package only if don't have
-if(!require(dplyr)){install.packges("dplyr")}
+if(!require(dplyr)){install.packages("dplyr")}
 library(dplyr) 
-
-# TODO: After loading dplyr, do you see any messages 
-# about objects being "masked?" What does this mean?
 
 
 ################################################
